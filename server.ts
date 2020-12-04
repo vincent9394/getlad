@@ -130,7 +130,7 @@ const grantExpress = grant.express({
   app.use(grantExpress as express.RequestHandler);
 
 
-  let port = 8080
+  let port = process.env.PORT;
 app.listen(port, () => {
     console.log(`Listening at http://localhost:${port}/`)
 })
