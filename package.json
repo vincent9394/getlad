@@ -46,6 +46,11 @@
   },
   "homepage": "https://gitlab.com/c12-tw-project1-group1/c12-tw-project1-group1#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
     "ts-node": "^9.1.0"
   }
 }

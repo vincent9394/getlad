@@ -1,5 +1,5 @@
 import express from 'express'
-import {searchRoute} from './search_bar'
+import { searchRoute } from './search_bar'
 import {sortingRoute} from './sorting'
 import {createEventRoute} from './createEvent'
 import {bottomBarRoute} from './bottomBar'
@@ -16,8 +16,6 @@ import { client } from './db';
 import bcrypt from 'bcryptjs';
 import expressSession from 'express-session';
 import bodyParser from 'body-parser'
-
-
 
 let app = express()
 app.use(bodyParser.urlencoded({ extended: false }))
